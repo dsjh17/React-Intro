@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 
 const navigation = [
   { name: 'Employees', href: '/employees' },
-  { name: 'Customers', href: '/customers' },
+  { name: 'Cars', href: '/cars' },
   { name: 'Dictionary', href: '/dictionary' },
   { name: 'Definition', href: '/definition' },
 ]
@@ -13,7 +13,7 @@ const navigation = [
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
-// Tailwind navbars
+// Tailwindui navbars
 export default function Header(props) {
   return (
     <>

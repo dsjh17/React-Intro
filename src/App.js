@@ -7,7 +7,7 @@ import AddEmployee from './Components/AddEmployee';
 import Header from './Components/Header';
 import Employees from './pages/Employees';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Customers from './pages/Customers';
+import Cars from './pages/Cars';
 import Dictionary from './pages/Dictionary';
 import Definition from './pages/Definition';
 import NotFound from './Components/NotFound';
@@ -20,7 +20,7 @@ function App() {
       <Header>
         <Routes>
           <Route path='/employees' element={<Employees/>} />
-          <Route path='/customers' element={<Customers/>} />
+          <Route path='/cars' element={<Cars/>} />
           <Route path='/dictionary' element={<Dictionary/>} />
           <Route path='/definition' element={<Definition/>} />
           <Route path='/definition/:search' element={<Definition/>} />

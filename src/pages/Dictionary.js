@@ -9,10 +9,10 @@ export default function Dictionary(){
     // });
     return(
         <div>
-            <h3>Let's get the definition of {word}</h3>
+            <h3>Let's get the definition of</h3>
             <input type="text" onChange={(e)=>{setWord(e.target.value)}}
             />
-            <button onClick={()=>{navigate("/definition/" + word)}}>
+            <button onClick={()=>{navigate("/definition/" + word)}} className="mx-3 my-2 px-4 py-1 text-sm text-white bg-purple-600 font-semibold rounded-full border border-purple-200">
                 Search
             </button>
         
